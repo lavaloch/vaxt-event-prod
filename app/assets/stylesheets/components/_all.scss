@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #E5D0B4;
+}
+
+body {
+  overflow-x: hidden;
+}
+.row {
+  max-width: 100rem;
+}
+
+a {
+  background-color: #E5D0B4;
+  border: none;
+  cursor: pointer;
+}
+
+a:hover > .box-button > .button {
+  top: 10px;
+  left: 10px;
+  transition: 0.1s;
+  color: #E5D0B4;
+  background-color: #000;
+}
+
+a:focus {
+  outline: none;
+}
+/*button:hover > .shadow {
+  background-color: black;
+  transition: 0.1s;
+}*/
+
+.box-button {
+  height: 80px;
+  width: 250px;
+  position: relative;
+}
+
+.button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 4px solid black;
+  background-color: #E5D0B4;
+  padding: 5px 10px;
+  color: black;
+  font-family: 'Staatliches', cursive;
+  z-index: 1000;
+  font-size: 36px;
+}
+
+.shadow {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border: 4px solid black;
+  background-color: #E5D0B4;
+  padding: 5px 10px;
+  color: black;
+  font-family: 'Staatliches', cursive;
+  z-index: 500;
+  font-size: 36px;
+}
+
+#letter_t {
+  fill: white;
+}
+
+#letter_r {
+  fill: white;
+}
+
+#letter_o {
+  fill: white;
+}
+
+#letter_u {
+  fill: white;
+}
+
+.wrapper {
+  padding-top: 100px;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrappi-left {
+  position: relative;
+  cursor: pointer;
+}
+
+.wrappi-right {
+  cursor: pointer;
+  position: relative;
+}
+
+.bloc {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.title-box {
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.wrappo-images {
+  position: relative;
+  overflow-x: auto;
+  white-space: nowrap;
+  height: 80vh;
+}
+
+.full-screen-div {
+  position: relative;
+  height: 100vh;
+}
+
+.bloc-en-savoir-plus {
+  width: 500px;
+  height: 238px;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  background-color: #E5D0B4;
+  z-index: 100;
+  padding: 15px;
+}
+
+.image {
+  display: inline-block;
+}
+
+.image-img {
+  height: 80vh;
+  margin-bottom: -1vh;
+}
+
+.title-en-savoir-plus {
+margin-bottom: 30px;
+}
+
+.wrappi-left:hover > .shadow-map {
+  top: 10px;
+  left: 10px;
+  transition: 0.1s;
+}
+
+.image-map {
+  z-index: 1000;
+  position: absolute;
+}
+
+.shadow-map {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 446px;
+    height: 280px;
+    border: 4px solid black;
+    background-color: #E5D0B4;
+    padding: 5px 10px;
+    color: black;
+    font-family: 'Staatliches', cursive;
+    z-index: 500;
+    font-size: 36px;
+}
