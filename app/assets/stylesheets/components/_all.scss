@@ -103,7 +103,6 @@ a:focus {
 .bloc {
   padding-top: 100px;
   padding-bottom: 100px;
-  width:100vm;
 }
 
 .title-box {
@@ -173,4 +172,8 @@ margin-bottom: 30px;
     font-family: 'Staatliches', cursive;
     z-index: 500;
     font-size: 36px;
+}
+
+#background-points-svg {
+  top: 0px;
 }
