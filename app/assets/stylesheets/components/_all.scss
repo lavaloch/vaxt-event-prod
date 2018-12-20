@@ -103,6 +103,7 @@ a:focus {
 .bloc {
   padding-top: 100px;
   padding-bottom: 100px;
+  width:100vm;
 }
 
 .title-box {
@@ -148,7 +149,7 @@ a:focus {
 margin-bottom: 30px;
 }
 
-.wrappi-left:hover > .shadow-map {
+.wrappi-left:hover > .maps > .shadow-map {
   top: 10px;
   left: 10px;
   transition: 0.1s;

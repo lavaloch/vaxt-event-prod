@@ -1,3 +1,9 @@
+@media screen and (min-width: 1600px) {
+  #background-points {
+    width: 1438px;
+    margin: 0 auto;
+  }
+}
 
 @media screen and (max-width: 1600px) {
   #background-points-svg {
@@ -25,12 +31,18 @@
     width: 1300px;
     height: 1127.329624px;
   }
+  .wrapper {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 1200px) {
   #background-points-svg {
     width: 1200px;
     height: 1040.611961px;
+  }
+  .wrapper {
+    width: 85%;
   }
 }
 
@@ -39,12 +51,18 @@
     width: 1100px;
     height: 953.8942976px;
   }
+  .wrapper {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 1000px) {
   #background-points-svg {
     width: 1000px;
     height: 867.1766342px;
+  }
+  .wrapper {
+    width: 100%;
   }
 }
 
@@ -56,7 +74,17 @@
 
   .wrapper {
     flex-direction: column;
+    width: 70%;
   }
+
+  .shadow-map {
+    display: none;
+  }
+
+  .image-map {
+    position: static;
+  }
+
 }
 
 @media screen and (max-width: 800px) {
