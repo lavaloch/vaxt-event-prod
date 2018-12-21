@@ -3,9 +3,9 @@ let detailsExpositionElt = document.querySelector("#details-exposition");
 //detailsExpositionElt.style.display = "none"
 let detailsShowed = false
 let backgroundSvgElt = document.querySelector("#background-points-svg");
-//console.dir(backgroundSvgElt.attributes.transform.value)
-console.dir(vernissageAnnounceElt.style.display)
-console.dir(detailsExpositionElt.style.display)
+// console.dir(backgroundSvgElt.attributes.transform.value)
+// console.dir(vernissageAnnounceElt.style.display)
+// console.dir(detailsExpositionElt.style.display)
 
 window.setInterval(function(){
   if (detailsShowed == true) {
@@ -39,6 +39,11 @@ let space15 = document.querySelector("#Group-15");
 let space16 = document.querySelector("#Group-16");
 let space17 = document.querySelector("#Group-17");
 let space18 = document.querySelector("#Group-18");
+let space19 = document.querySelector("#Group-19");
+let space20 = document.querySelector("#Group-20");
+let space21 = document.querySelector("#Group-21");
+let space22 = document.querySelector("#Group-22");
+
 
 let letterT = document.querySelector("#letter_t");
 let letterR = document.querySelector("#letter_r");
@@ -46,91 +51,91 @@ let letterO = document.querySelector("#letter_o");
 let letterU = document.querySelector("#letter_u");
 
 space5.addEventListener("mouseover", function() {
-  console.dir(letterT)
+  // console.dir(letterT)
   letterT.style.fill = "red"
 })
 
 space6.addEventListener("mouseover", function() {
-  console.dir(letterT)
+  // console.dir(letterT)
   letterR.style.fill = "pink"
 })
 
 space7.addEventListener("mouseover", function() {
-  console.dir(letterT)
+  // console.dir(letterT)
   letterO.style.fill = "yellow"
 })
 
 space8.addEventListener("mouseover", function() {
-  console.dir(letterT)
+  // console.dir(letterT)
   letterU.style.fill = "blue"
 })
 
 space9.addEventListener("mouseover", function() {
-  console.dir(letterT)
+  // console.dir(letterT)
   letterT.style.fill = "green"
 })
 
 space10.addEventListener("mouseover", function() {
-  console.dir(letterT)
+  // console.dir(letterT)
   letterR.style.fill = "turquoise"
 })
 
 space11.addEventListener("mouseover", function() {
-  console.dir(letterT)
+  // console.dir(letterT)
   letterO.style.fill = "red"
 })
 
 space12.addEventListener("mouseover", function() {
-  console.dir(letterT)
+  // console.dir(letterT)
   letterU.style.fill = "pink"
 })
 
 space13.addEventListener("mouseover", function() {
-  console.dir(letterT)
+  // console.dir(letterT)
   letterT.style.fill = "yellow"
 })
 
 space14.addEventListener("mouseover", function() {
-  console.dir(letterT)
+  // console.dir(letterT)
   letterR.style.fill = "blue"
 })
 
 space15.addEventListener("mouseover", function() {
-  console.dir(letterT)
+  // console.dir(letterT)
   letterO.style.fill = "green"
 })
 
 space16.addEventListener("mouseover", function() {
-  console.dir(letterT)
+  // console.dir(letterT)
   letterU.style.fill = "turquoise"
 })
 
 space17.addEventListener("mouseover", function() {
-  console.dir(letterT)
+  // console.dir(letterT)
   letterT.style.fill = "magenta"
 })
 
 space18.addEventListener("mouseover", function() {
-  console.dir(letterT)
+  // console.dir(letterT)
   letterR.style.fill = "skyblue"
 })
 
 space19.addEventListener("mouseover", function() {
-  console.dir(letterT)
+  // console.dir(letterT)
   letterO.style.fill = "aquamarine"
 })
 
 space20.addEventListener("mouseover", function() {
-  console.dir(letterT)
+  // console.dir(letterT)
   letterU.style.fill = "darkseagreen"
 })
 
 space21.addEventListener("mouseover", function() {
-  console.dir(letterT)
+  // console.dir(letterT)
   letterT.style.fill = "gold"
 })
 
 space22.addEventListener("mouseover", function() {
-  console.dir(letterT)
+  // console.dir(letterT)
   letterR.style.fill = "salmon"
 })
