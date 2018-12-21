@@ -13,7 +13,7 @@ let wrapperElt = document.querySelector(".wrapper");
 console.dir(mapElt)
 
 let backgroundMobile1 = document.querySelector(".image-bg-mobile")
-
+let textWorkshopElt = document.querySelector("#text-workshop")
 window.addEventListener("resize", () => {
   setWidthOfSvgs()
 })
@@ -43,6 +43,11 @@ let setWidthOfSvgs = () => {
     wrapperElt.style.paddingTop = "0px"
     mapElt.style.width = windowSize + "px"
     mapElt.style.height = windowSize * deuxCentQuatreVingt / quatreCentQuaranteSix +"px";
+  }
+  if (windowSize < 400) {
+    console.log(textWorkshopElt)
+    textWorkshopElt.style.width = "250px"
+    textWorkshopElt.style.height = "57.8px"
   }
   // console.log("background height " + backgroundElt.scrollHeight);
   // console.log("Background " + backgroundElt.style.width + "px")

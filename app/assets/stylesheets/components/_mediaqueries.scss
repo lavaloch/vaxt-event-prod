@@ -128,7 +128,7 @@
   }
   .bloc {
     padding-top: 30px;
-    padding-bottom: 30px;    
+    padding-bottom: 30px;
   }
 }
 
@@ -141,6 +141,7 @@
   #line-line {
     width: 800px;
   }
+
 }
 
 @media screen and (max-width: 700px) {
@@ -206,6 +207,11 @@
   #line-line {
     width: 500px;
   }
+
+  .bloc-en-savoir-plus {
+    width: 350px;
+    height: 220px;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -231,10 +237,16 @@
   #line-line {
     width: 400px;
   }
+
+  .bloc-en-savoir-plus {
+    width: 280px;
+    height: 200px;
+  }
 }
 
 @media screen and (max-width: 300px) {
   #line-line {
     width: 300px;
   }
+
 }
