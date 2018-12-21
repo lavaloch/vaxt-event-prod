@@ -148,7 +148,7 @@ a:focus {
 margin-bottom: 30px;
 }
 
-.wrappi-left:hover > .maps > .shadow-map {
+.wrappi-left:hover > .maps > .image-map {
   top: 10px;
   left: 10px;
   transition: 0.1s;
@@ -157,12 +157,15 @@ margin-bottom: 30px;
 .image-map {
   z-index: 1000;
   position: absolute;
+  top: 0px;
+  left: 0px;
+
 }
 
 .shadow-map {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 10px;
+    left: 10px;
     width: 446px;
     height: 280px;
     border: 4px solid black;
