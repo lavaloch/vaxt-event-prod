@@ -15,14 +15,20 @@
 //   //   width: 1438px;
 //   //   height: 1247px;
 //   // }
-// }
+  .display-mobile {
+    display: none;
+  }
+  .display-desktop {
+    display: block;
+  }
+}
 
 @media screen and (max-width: 1440px) {
 //   // #background-points-svg {
 //   //   width: 1438px;
 //   //   height: 1247px;
 //   // }
-// }
+}
 
 @media screen and (max-width: 1400px) {
   #background-points-svg {
@@ -40,7 +46,7 @@
   // //   width: 1300px;
   // //   height: 1127.329624px;
   // // }
-  // .wrapper {
+  .wrapper {
     width: 80%;
   }
 
@@ -54,7 +60,7 @@
   // //   width: 1200px;
   // //   height: 1040.611961px;
   // // }
-  // .wrapper {
+  .wrapper {
     width: 85%;
   }
 
@@ -112,6 +118,17 @@
 
   #line-line {
     width: 900px;
+  }
+
+  .display-mobile {
+    display: block;
+  }
+  .display-desktop {
+    display: none;
+  }
+  .bloc {
+    padding-top: 30px;
+    padding-bottom: 30px;    
   }
 }
 

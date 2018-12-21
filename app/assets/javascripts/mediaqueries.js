@@ -4,6 +4,15 @@ let windowSize = window.innerWidth
 let backgroundElt = document.querySelector("#background-points-svg");
 const cent = 100
 const quatreVingtSix = 86.7177
+const quatreCentQuaranteSix = 446
+const deuxCentQuatreVingt = 280
+
+let mapElt = document.querySelector(".map-button");
+let shadowMapElt = document.querySelector(".shadow-map");
+let wrapperElt = document.querySelector(".wrapper");
+console.dir(mapElt)
+
+let backgroundMobile1 = document.querySelector(".image-bg-mobile")
 
 window.addEventListener("resize", () => {
   setWidthOfSvgs()
@@ -24,6 +33,17 @@ let setWidthOfSvgs = () => {
   // console.log("Bloc " + blocElt.style.width + "px")
   backgroundElt.style.width = windowSize + "px";
   backgroundElt.style.height = windowSize * quatreVingtSix / cent + "px";
+  console.log(windowSize, mapElt)
+  console.dir(backgroundMobile1)
+  console.dir(backgroundMobile1)
+  if (windowSize < 900) {
+    backgroundMobile1.style.width = windowSize +"px";
+    backgroundMobile1.style.height = windowSize +"px";
+    wrapperElt.style.width = "100%"
+    wrapperElt.style.paddingTop = "0px"
+    mapElt.style.width = windowSize + "px"
+    mapElt.style.height = windowSize * deuxCentQuatreVingt / quatreCentQuaranteSix +"px";
+  }
   // console.log("background height " + backgroundElt.scrollHeight);
   // console.log("Background " + backgroundElt.style.width + "px")
   // console.dir(backgroundElt)

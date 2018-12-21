@@ -1,5 +1,11 @@
 <div id="background-points">
-  <%= render 'svg/background.html.erb' %>
+
+  <div class="display-desktop">
+    <%= render 'svg/background.html.erb' %>
+  </div>
+  <div class="display-mobile">
+    <%= image_tag "backgroundMobile.jpg", class: "image-bg-mobile", alt: "Exposition du 11 janvier au 13 avril 2019" %>
+  </div>
 </div>
 <%= render 'contact-details.html.erb' %>
 <%= render 'line.html.erb' %>
