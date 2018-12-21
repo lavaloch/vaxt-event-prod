@@ -6,8 +6,7 @@ const cent = 100
 const quatreVingtSix = 86.7177
 
 window.addEventListener("resize", () => {
-  location.reload();
-
+  setWidthOfSvgs()
 })
 
 window.addEventListener("load", () => {
