@@ -14,6 +14,9 @@ console.dir(mapElt)
 
 let backgroundMobile1 = document.querySelector(".image-bg-mobile")
 let textWorkshopElt = document.querySelector("#text-workshop")
+let blocEnSAvoirPlusElt = document.querySelector(".bloc-en-savoir-plus")
+
+
 window.addEventListener("resize", () => {
   setWidthOfSvgs()
 })
@@ -43,6 +46,10 @@ let setWidthOfSvgs = () => {
     wrapperElt.style.paddingTop = "0px"
     mapElt.style.width = windowSize + "px"
     mapElt.style.height = windowSize * deuxCentQuatreVingt / quatreCentQuaranteSix +"px";
+  }
+  if (windowSize < 500) {
+    console.dir(blocEnSAvoirPlusElt)
+    blocEnSAvoirPlusElt.style.width= windowSize + "px"
   }
   if (windowSize < 400) {
     console.log(textWorkshopElt)

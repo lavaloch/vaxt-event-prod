@@ -6,7 +6,8 @@ let backgroundSvgElt = document.querySelector("#background-points-svg");
 // console.dir(backgroundSvgElt.attributes.transform.value)
 // console.dir(vernissageAnnounceElt.style.display)
 // console.dir(detailsExpositionElt.style.display)
-
+// bottom: 30px;
+// left: 30px;
 window.setInterval(function(){
   if (detailsShowed == true) {
     detailsExpositionElt.style.display = "none"
