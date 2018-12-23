@@ -11,7 +11,8 @@ $headers-font: "Staatliches", "Helvetica", "cursive";
   src: font-url('FuturaCondensedMedium.eot');
   src: font-url('FuturaCondensedMedium.eot?#iefix') format('embedded-opentype'),
        font-url('FuturaCondensedMedium.woff') format('woff'),
-       font-url('FuturaCondensedMedium.ttf') format('truetype')
+       font-url('FuturaCondensedMedium.ttf') format('truetype'),
+       font-url('FuturaCondensedMedium.svg#entypo') format('svg')
 }
 $my-font-1: "Futura Condensed Medium";
 
@@ -20,6 +21,7 @@ $my-font-1: "Futura Condensed Medium";
   src: font-url('FuturaCondensedExtraBold.eot');
   src: font-url('FuturaCondensedExtraBold.eot?#iefix') format('embedded-opentype'),
        font-url('FuturaCondensedExtraBold.woff') format('woff'),
-       font-url('FuturaCondensedExtraBold.ttf') format('truetype')
+       font-url('FuturaCondensedExtraBold.ttf') format('truetype'),
+       font-url('FuturaCondensedExtraBold.svg#entypo') format('svg')
 }
 $my-font-2: "Futura Condensed Extra Bold";
