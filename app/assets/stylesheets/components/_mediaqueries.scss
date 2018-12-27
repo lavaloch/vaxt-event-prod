@@ -180,6 +180,10 @@
   #line-line {
     width: 600px;
   }
+
+  .wrappi-right {
+    height: 310px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -200,7 +204,11 @@
 
   #contact-details-svg {
     width: 350px;
-    height: 219.4382022px;
+    height: 310px;
+  }
+
+  .title-box {
+    font-size: 30px;
   }
 
   .image-map > a > img {
