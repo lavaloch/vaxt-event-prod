@@ -48,7 +48,7 @@ a:focus {
   background-color: #E5D0B4;
   padding: 5px 10px;
   color: black;
-  font-family: 'Staatliches', cursive;
+  font-family: $body-font;
   z-index: 1000;
   font-size: 36px;
 }
@@ -61,7 +61,7 @@ a:focus {
   background-color: #E5D0B4;
   padding: 5px 10px;
   color: black;
-  font-family: 'Staatliches', cursive;
+  font-family: $body-font;
   z-index: 500;
   font-size: 36px;
 }
@@ -106,10 +106,13 @@ a:focus {
 }
 
 .title-box {
+  font-family: $p-font;
   height: 20vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-size: 40px;
+  font-weight: 600;
 }
 
 .wrappo-images {
@@ -132,7 +135,7 @@ a:focus {
   left: 30px;
   background-color: #E5D0B4;
   z-index: 100;
-  padding: 15px;
+  padding: 26px 15px;
 }
 
 .image {
@@ -146,6 +149,7 @@ a:focus {
 
 .title-en-savoir-plus {
 margin-bottom: 30px;
+font-family: $p-font;
 }
 
 .wrappi-left:hover > .maps > .image-map {
@@ -179,4 +183,38 @@ margin-bottom: 30px;
 
 #background-points-svg {
   top: 0px;
+
+}
+
+.wrappi-right > span {
+  display: block;
+}
+
+#wrappi-right-1, #wrappi-right-2, #wrappi-right-3,
+#wrappi-right-4, #wrappi-right-5, #wrappi-right-6 {
+  display: block;
+  font-family: $p-font;
+
+}
+
+#wrappi-right-1, #wrappi-right-2 {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+#wrappi-right-2 {
+  margin-bottom: 30px;
+}
+
+#wrappi-right-3, #wrappi-right-4, #wrappi-right-5 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+#wrappi-right-5 {
+  margin-bottom: 30px;
+}
+
+#wrappi-right-6 {
+  font-size: 18px;
 }
